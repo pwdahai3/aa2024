@@ -1,0 +1,295 @@
+
+
+{
+	"took": 54,
+	"timed_out": false,
+	"_shards": {
+		"total": 160,
+		"successful": 160,
+		"failed": 0
+	},
+	"hits": {
+		"total": 178,
+		"max_score": null,
+		"hits": [
+      {
+        "_index": "shadow-filebeat-2019-08-29",
+        "_type": "log",
+        "_id": "AWzbELjNdDgiY_u88h7O",
+        "_score": null,
+        "_source": {
+          "@timestamp": "2019-08-29T09:48:15.000Z",
+          "offset": 129667,
+          "shadow": {
+            "error": {
+              "level": "error",
+              "connection_id": "60",
+              "pid": "13563",
+              "message": "http upstream check module can not find any check server, make sure you've added the check servers, client: 192.168.2.51, server: internal.domain, request: \"GET /check/nstatus?format=json HTTP/1.1\", host: \"internal.domain\"",
+              "tid": "0"
+            }
+          },
+          "beat": {
+            "hostname": "shadow",
+            "name": "shadow",
+            "version": "5.4.0"
+          },
+          "input_type": "log",
+          "read_timestamp": "2019-08-29T01:48:23.728Z",
+          "source": "/usr/local/shadow/logs/error.log",
+          "type": "log"
+        },
+        "sort": [1567072095000]
+        }, 
+        
+        {
+        "_index": "shadow-filebeat-2019-08-29",
+        "_type": "log",
+        "_id": "AWzbC_DLdDgiY_u88hnA",
+        "_score": null,
+        "_source": {
+          "@timestamp": "2019-08-29T09:43:01.000Z",
+          "offset": 92849,
+          "shadow": {
+            "error": {
+              "level": "error",
+              "connection_id": "6783",
+              "pid": "30578",
+              "message": "http shadow url decode, invalid key: -1",
+              "tid": "0"
+            }
+          },
+          "beat": {
+            "hostname": "shadow2",
+            "name": "shadow2",
+            "version": "5.4.0"
+          },
+          "input_type": "log",
+          "read_timestamp": "2019-08-29T01:43:11.518Z",
+          "source": "/usr/local/shadow/logs/error.log",
+          "type": "log"
+        },
+        "sort": [1567071781000]
+      }, 
+      
+      
+      {
+        "_index": "shadow-filebeat-2019-08-29",
+        "_type": "log",
+        "_id": "AWzbC_DLdDgiY_u88hnB",
+        "_score": null,
+        "_source": {
+          "@timestamp": "2019-08-29T01:43:11.518Z",
+          "offset": 94179,
+          "beat": {
+            "hostname": "shadow2",
+            "name": "shadow2",
+            "version": "5.4.0"
+          },
+          "input_type": "log",
+          "source": "/usr/local/shadow/logs/error.log",
+          "message": "\"/Abf50v1EUk4-szO07NTBgSlG-ylRbWL9eQF9PpiNbDSjCz-t2Q179xNvUwpmOJk-pAoG6eU81OQ3-Indqm_A4ogdsZuJdUCqjUKuGobY2Qp8on-m3Y1ZCkFYPRA34FXcZEmf6o5KMvUR3oHJHkT17S3vaGpV5_Yg8mFKPeJkpUI=x7N2zOO-74sHayYIwgmObmlOu5e-wu8JZC7mKKOtV4lw-P-9FTxPFx1t9xuoTPHKHW33G6hM8codbfcbqEzxyv6W8AnPx523_5Pa2iMMTTIMEJ7Ej6L_WG7JeuEPdqG_ln2tBsHWc_l23P8BOkQ7M1g3z6vwpMzJm1BoxxBNslrUHomY1bYyOjDnbuM0PlzH16Pq_HbYet8LhjihoPAKgg==\", client: 192.168.2.84, server: www.sherry.com, request: \"GET /Abf50v1EUk4-szO07NTBgSlG-ylRbWL9eQF9PpiNbDSjCz-t2Q179xNvUwpmOJk-pAoG6eU81OQ3-Indqm_A4ogdsZuJdUCqjUKuGobY2Qp8on-m3Y1ZCkFYPRA34FXcZEmf6o5KMvUR3oHJHkT17S3vaGpV5_Yg8mFKPeJkpUI=x7N2zOO-74sHayYIwgmObmlOu5e-wu8JZC7mKKOtV4lw-P-9FTxPFx1t9xuoTPHKHW33G6hM8codbfcbqEzxyv6W8AnPx523_5Pa2iMMTTIMEJ7Ej6L_WG7JeuEPdqG_ln2tBsHWc_l23P8BOkQ7M1g3z6vwpMzJm1BoxxBNslrUHomY1bYyOjDnbuM0PlzH16Pq_HbYet8LhjihoPAKgg== HTTP/1.1\", host: \"www.sherry.com\", referrer: \"http://www.sherry.com/QZsmulONRY_kFqM8uQ7KF4AEZBDHhnwGbIz7cnqeC95WajInYiG6GXwg_lt7LQSfEZMsvbvPKl0GjwK_sGFQbY3sSrawxyWhJ4klGrWPd1KGNcn4EhrGMSXR4p5VgK8Nw9afOtnkLtAjJ0A7zdgYyUJi4y0auGfU5ORKfGpJ0NQ=KNPdTMKiWRXtnfjuvHbD3ZB1EwIkhQNpynmVkpenpLnKc2_1o7TriNVqJiaVi3Gh1WomJpWLcaHVaiYmlYtxoUi8rFchY1_3rvvSR3ijS03XQlugBQ7Al6wAd84s1NBsmzRH7h6OcTlZ6Rj8wuCM9qN6mI7MMdgq4rkrrsta5H9Aq0LxbMtVSAoP2dTxFytaWH9sGojFRq4wxLpN8hBM4w==?content=business_deposit.htm\"",
+          "type": "log",
+          "error": "Provided Grok expressions do not match field value: [\\\"/Abf50v1EUk4-szO07NTBgSlG-ylRbWL9eQF9PpiNbDSjCz-t2Q179xNvUwpmOJk-pAoG6eU81OQ3-Indqm_A4ogdsZuJdUCqjUKuGobY2Qp8on-m3Y1ZCkFYPRA34FXcZEmf6o5KMvUR3oHJHkT17S3vaGpV5_Yg8mFKPeJkpUI=x7N2zOO-74sHayYIwgmObmlOu5e-wu8JZC7mKKOtV4lw-P-9FTxPFx1t9xuoTPHKHW33G6hM8codbfcbqEzxyv6W8AnPx523_5Pa2iMMTTIMEJ7Ej6L_WG7JeuEPdqG_ln2tBsHWc_l23P8BOkQ7M1g3z6vwpMzJm1BoxxBNslrUHomY1bYyOjDnbuM0PlzH16Pq_HbYet8LhjihoPAKgg==\\\", client: 192.168.2.84, server: www.sherry.com, request: \\\"GET /Abf50v1EUk4-szO07NTBgSlG-ylRbWL9eQF9PpiNbDSjCz-t2Q179xNvUwpmOJk-pAoG6eU81OQ3-Indqm_A4ogdsZuJdUCqjUKuGobY2Qp8on-m3Y1ZCkFYPRA34FXcZEmf6o5KMvUR3oHJHkT17S3vaGpV5_Yg8mFKPeJkpUI=x7N2zOO-74sHayYIwgmObmlOu5e-wu8JZC7mKKOtV4lw-P-9FTxPFx1t9xuoTPHKHW33G6hM8codbfcbqEzxyv6W8AnPx523_5Pa2iMMTTIMEJ7Ej6L_WG7JeuEPdqG_ln2tBsHWc_l23P8BOkQ7M1g3z6vwpMzJm1BoxxBNslrUHomY1bYyOjDnbuM0PlzH16Pq_HbYet8LhjihoPAKgg== HTTP/1.1\\\", host: \\\"www.sherry.com\\\", referrer: \\\"http://www.sherry.com/QZsmulONRY_kFqM8uQ7KF4AEZBDHhnwGbIz7cnqeC95WajInYiG6GXwg_lt7LQSfEZMsvbvPKl0GjwK_sGFQbY3sSrawxyWhJ4klGrWPd1KGNcn4EhrGMSXR4p5VgK8Nw9afOtnkLtAjJ0A7zdgYyUJi4y0auGfU5ORKfGpJ0NQ=KNPdTMKiWRXtnfjuvHbD3ZB1EwIkhQNpynmVkpenpLnKc2_1o7TriNVqJiaVi3Gh1WomJpWLcaHVaiYmlYtxoUi8rFchY1_3rvvSR3ijS03XQlugBQ7Al6wAd84s1NBsmzRH7h6OcTlZ6Rj8wuCM9qN6mI7MMdgq4rkrrsta5H9Aq0LxbMtVSAoP2dTxFytaWH9sGojFRq4wxLpN8hBM4w==?content=business_deposit.htm\\\"]"
+        },
+        "sort": [1567042991518]
+      }, 
+      
+      
+      
+      {
+        "_index": "shadow-filebeat-2019-08-28",
+        "_type": "log",
+        "_id": "AWzXTfXUdDgiY_u87kEv",
+        "_score": null,
+        "_source": {
+          "@timestamp": "2019-08-28T16:16:48.000Z",
+          "offset": 92766,
+          "shadow": {
+            "error": {
+              "level": "error",
+              "connection_id": "6627",
+              "pid": "26044",
+              "message": "http shadow url decode, \"/FxujKIajoh4dgBz1YBfzQbc9RqHIXLmnBVjHVY84a9AUFqYYnucR2tqUYGsp01Y6IeKJ9yz0_Ra11AYZJDoJb4ij-8AXO-tEZ0dih4EnA0oIh9pjH_g31XPYzB02B1CV_EzhaMpOojfJ8pDges9PkFZlGfbiK6M2cY4KD8KTXhQ=oDPzWZCvdai7dSdGuXaE_6bPut57ixx7AogisLOCQi7z30X8s03Tj4sJCCt6_esQiwkIK3r96xCLCQgrev3rEOHv6ObSkiCV_zctEtDDdS4I1dsqOZl4FqGKH78S4pznIzI9xftYC9FDhYgKbOgxzXfR1sw62fHXK6HsvGkQaXNg8tJssz851d83SAi1i0UDC5IN8nM-XpNYyS6BhHEvhw==\", encrypt len, client: 192.168.2.84, server: www.sherry.com, request: \"GET /FxujKIajoh4dgBz1YBfzQbc9RqHIXLmnBVjHVY84a9AUFqYYnucR2tqUYGsp01Y6IeKJ9yz0_Ra11AYZJDoJb4ij-8AXO-tEZ0dih4EnA0oIh9pjH_g31XPYzB02B1CV_EzhaMpOojfJ8pDges9PkFZlGfbiK6M2cY4KD8KTXhQ=oDPzWZCvdai7dSdGuXaE_6bPut57ixx7AogisLOCQi7z30X8s03Tj4sJCCt6_esQiwkIK3r96xCLCQgrev3rEOHv6ObSkiCV_zctEtDDdS4I1dsqOZl4FqGKH78S4pznIzI9xftYC9FDhYgKbOgxzXfR1sw62fHXK6HsvGkQaXNg8tJssz851d83SAi1i0UDC5IN8nM-XpNYyS6BhHEvhw==?content=inside_contact.htm HTTP/1.1\", host: \"www.sherry.com\", referrer: \"http://www.sherry.com/D1zSbjnFTLMOBQJo6OLUcKOB9zmhk7Ib_ETmxmJNTphZ7QeBYnm5RnnhlXimpKSBTvYOp7p4MP3pv3ldzoqYhrEbj-V9yuV_iQcs1v_MXo0dvVJDIBKgaUAKHC7ReNPQjYbaO3pA3VWWXN2ZgR-HIiBGGG5VKrtJOpZSu_P_r4I=8oaOxEH4vgSsgg7KBu77s9mpkyKHrVWos96t3KNI8mvDa0wWnBdrOzChiG9zfIBNMKGIb3N8gE0woYhvc3yATd_9xI1-lVrrnnuEifSN9fvsPRY9x7OEAxmVkjuknm-TO5GoLT7ybUzN0zzPQ9cy_g1FsrUHs_PZWCNSF-HTzp_ARqGt6gw2r0x6nYim4OYelNdZ58-NnhUcA_8SjR1s4g==?content=business_other.htm\"",
+              "tid": "0"
+            }
+          },
+          "beat": {
+            "hostname": "shadow2",
+            "name": "shadow2",
+            "version": "5.4.0"
+          },
+          "input_type": "log",
+          "read_timestamp": "2019-08-28T08:16:50.148Z",
+          "source": "/usr/local/shadow/logs/error.log",
+          "type": "log"
+        },
+        "sort": [1567009008000]
+      }, {
+        "_index": "shadow-filebeat-2019-08-28",
+        "_type": "log",
+        "_id": "AWzXSOy2dDgiY_u87jvB",
+        "_score": null,
+        "_source": {
+          "@timestamp": "2019-08-28T16:11:16.000Z",
+          "offset": 91331,
+          "shadow": {
+            "error": {
+              "level": "warn",
+              "pid": "26043",
+              "message": "the \"ssl\" directive is deprecated, use the \"listen ... ssl\" directive instead in /usr/local/shadow/conf/http_param.conf:62",
+              "tid": "0"
+            }
+          },
+          "beat": {
+            "hostname": "shadow2",
+            "name": "shadow2",
+            "version": "5.4.0"
+          },
+          "input_type": "log",
+          "read_timestamp": "2019-08-28T08:11:20.141Z",
+          "source": "/usr/local/shadow/logs/error.log",
+          "type": "log"
+        },
+        "sort": [1567008676000]
+      }, {
+        "_index": "shadow-filebeat-2019-08-28",
+        "_type": "log",
+        "_id": "AWzXP4pIdDgiY_u87jIM",
+        "_score": null,
+        "_source": {
+          "@timestamp": "2019-08-28T16:00:58.000Z",
+          "offset": 91172,
+          "shadow": {
+            "error": {
+              "level": "warn",
+              "pid": "25090",
+              "message": "the \"ssl\" directive is deprecated, use the \"listen ... ssl\" directive instead in /usr/local/shadow/conf/http_param.conf:62",
+              "tid": "0"
+            }
+          },
+          "beat": {
+            "hostname": "shadow2",
+            "name": "shadow2",
+            "version": "5.4.0"
+          },
+          "input_type": "log",
+          "read_timestamp": "2019-08-28T08:01:05.126Z",
+          "source": "/usr/local/shadow/logs/error.log",
+          "type": "log"
+        },
+        "sort": [1567008058000]
+      }, {
+        "_index": "shadow-filebeat-2019-08-28",
+        "_type": "log",
+        "_id": "AWzXP0-xdDgiY_u87jHG",
+        "_score": null,
+        "_source": {
+          "@timestamp": "2019-08-28T16:00:44.000Z",
+          "offset": 91013,
+          "shadow": {
+            "error": {
+              "level": "warn",
+              "pid": "25066",
+              "message": "the \"ssl\" directive is deprecated, use the \"listen ... ssl\" directive instead in /usr/local/shadow/conf/http_param.conf:62",
+              "tid": "0"
+            }
+          },
+          "beat": {
+            "hostname": "shadow2",
+            "name": "shadow2",
+            "version": "5.4.0"
+          },
+          "input_type": "log",
+          "read_timestamp": "2019-08-28T08:00:50.126Z",
+          "source": "/usr/local/shadow/logs/error.log",
+          "type": "log"
+        },
+        "sort": [1567008044000]
+      }, {
+        "_index": "shadow-filebeat-2019-08-28",
+        "_type": "log",
+        "_id": "AWzXPzYTdDgiY_u87jGp",
+        "_score": null,
+        "_source": {
+          "@timestamp": "2019-08-28T16:00:34.000Z",
+          "offset": 129403,
+          "shadow": {
+            "error": {
+              "level": "error",
+              "connection_id": "15",
+              "pid": "7706",
+              "message": "upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.2.2, server: etrade.ubssdic.com, request: \"GET /favicon.ico HTTP/1.1\", upstream: \"https://121.15.169.88:443/favicon.ico\", host: \"etrade.ubssdic.com\", referrer: \"https://etrade.ubssdic.com/ubssdic-wechat/\"",
+              "tid": "0"
+            }
+          },
+          "beat": {
+            "hostname": "shadow",
+            "name": "shadow",
+            "version": "5.4.0"
+          },
+          "input_type": "log",
+          "read_timestamp": "2019-08-28T08:00:42.329Z",
+          "source": "/usr/local/shadow/logs/error.log",
+          "type": "log"
+        },
+        "sort": [1567008034000]
+      }, {
+        "_index": "shadow-filebeat-2019-08-28",
+        "_type": "log",
+        "_id": "AWzXPoZJdDgiY_u87jD3",
+        "_score": null,
+        "_source": {
+          "@timestamp": "2019-08-28T15:59:49.000Z",
+          "offset": 129050,
+          "shadow": {
+            "error": {
+              "level": "error",
+              "connection_id": "14",
+              "pid": "7708",
+              "message": "upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.2.2, server: etrade.ubssdic.com, request: \"GET /favicon.ico HTTP/1.1\", upstream: \"https://121.15.169.88:443/favicon.ico\", host: \"etrade.ubssdic.com\", referrer: \"https://etrade.ubssdic.com/ubssdic-wechat/\"",
+              "tid": "0"
+            }
+          },
+          "beat": {
+            "hostname": "shadow",
+            "name": "shadow",
+            "version": "5.4.0"
+          },
+          "input_type": "log",
+          "read_timestamp": "2019-08-28T07:59:57.328Z",
+          "source": "/usr/local/shadow/logs/error.log",
+          "type": "log"
+        },
+        "sort": [1567007989000]
+      }, {
+        "_index": "shadow-filebeat-2019-08-28",
+        "_type": "log",
+        "_id": "AWzXPWFPdDgiY_u87i-v",
+        "_score": null,
+        "_source": {
+          "@timestamp": "2019-08-28T15:58:41.000Z",
+          "offset": 128697,
+          "shadow": {
+            "error": {
+              "level": "error",
+              "connection_id": "14",
+              "pid": "7708",
+              "message": "upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.2.2, server: etrade.ubssdic.com, request: \"GET /favicon.ico HTTP/1.1\", upstream: \"https://121.15.169.88:443/favicon.ico\", host: \"etrade.ubssdic.com\", referrer: \"https://etrade.ubssdic.com/ubssdic-wechat/\"",
+              "tid": "0"
+            }
+          },
+          "beat": {
+            "hostname": "shadow",
+            "name": "shadow",
+            "version": "5.4.0"
+          },
+          "input_type": "log",
+          "read_timestamp": "2019-08-28T07:58:42.326Z",
+          "source": "/usr/local/shadow/logs/error.log",
+          "type": "log"
+        },
+        "sort": [1567007921000]
+		}]
+	}
+}

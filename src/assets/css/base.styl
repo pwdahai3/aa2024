@@ -1,0 +1,253 @@
+html,body,#app
+  width:100%
+  height:100%
+body
+  font-size:14px
+  color:#606266
+a
+  color:rgb(77,85,93)
+  text-decoration:none
+  &:hover
+    text-decoration:none
+.clearfix
+  display:inline-block
+  &:after
+    display:block
+    height:0
+    line-height:0
+    content:'.'
+    visibility:hidden
+    clear:both
+
+@media (-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5)
+  .border-1px
+    &:after
+      -webkit-transform:scaleY(0.7)
+      transform:scaleY(0.7)
+@media (-webkit-min-device-pixel-ratio:2),(min-device-pixel-ratio:2)
+  .border-1px
+    &:after
+      -webkit-transform:scaleY(0.5)
+      transform:scaleY(0.5)
+.text-right
+  text-align:right
+.text-center
+  text-align:center
+  color:#888
+.font-red
+  color:#fa5555
+.fsize-12
+  font-size:12px
+.cursor-pointer
+  cursor:pointer
+.margin-tb
+  margin:20px 0
+.fl
+  float:left
+.fr
+  float:right
+table
+  display:table
+  border-spacing:0
+  border-collapse:collapse
+  border:1px solid #ebeef5
+  width:100%
+  max-width:100%
+  font-size: 14px;
+  color: #606266;
+  thead
+    display:table-header-group
+    vertical-align:middle
+    color: #909399;
+    font-weight: 500;
+    th
+      border-top:0
+      border-bottom: 1px solid #ebeef5;
+      padding:22px 12px
+      text-align:left
+      font-weight:600
+      white-space: nowrap;
+      overflow: hidden;
+      user-select: none;
+      text-align: left;
+      text-overflow: ellipsis;
+      vertical-align: middle;
+      position: relative;
+      border-right: 1px solid #ebeef5;
+  tbody
+    display: table-row-group
+    tr
+      background:#fff
+      &:nth-child(even)
+        background: #fafafa
+      &:hover
+        background:#f5f6fa
+      td
+        border-bottom: 1px solid #ebeef5
+        padding:18px 12px
+        display:table-cell
+        word-wrap:break-word
+        word-break:break-all
+        border-right: 1px solid #ebeef5;
+        text-overflow: ellipsis;
+        vertical-align: middle;
+        position: relative;
+.nodata-box
+  background-color:#f7f7f7
+  text-align:center
+  color:#6f7180
+  height:60px;
+  line-height 60px
+.nodata-box2
+  background-color:#fff
+  text-align:center
+  color:#6f7180
+  height:60px;
+  line-height 60px
+a.edit-del-a
+  font-size:12px
+  margin:0 4px
+  color:#888
+  &:hover
+    color:#333
+    text-decoration:underline
+  i
+    padding-right:2px
+.form-bg, .btn-bg
+  background:#f7f7f7
+  padding:20px
+  margin-bottom:20px
+.font-blue
+  color #409EFF
+.font-red
+  color #F56C6C
+.font-green
+  color #67C23A
+.font-red2
+  color #ff0000
+
+//运行中...图标明暗动画
+.shadow-icon-color-success
+  color: #333333;
+  animation:mystatus 1s infinite;
+  -webkit-animation:mystatus 1s infinite;
+@keyframes mystatus
+{
+  from {color:#333333}
+  to {color:#67c23a}
+}
+@-webkit-keyframes mystatus /*Safari and Chrome*/
+{
+  from {color:#333333}
+  to {color:#67c23a}
+}
+//end
+
+//拓扑图上方匹配方式样式
+.matchtips{position: absolute; left:20px; top: 10px; width: 780px; padding: 10px 0}//position: absolute; left:20px; top: 10px; 
+.matchtips span{ display: inline-block; margin-right: 12px; vertical-align: middle; }
+.matchtips span i{ display: inline-block; width: 10px; height: 10px; -webkit-border-radius: 50%;border-radius: 50%; margin-right: 2px; vertical-align: middle; background: #ffffff; border-width:3px; border-style: solid; }
+.matchtips span i.i1{ border-color:#39a8ef;}
+.matchtips span i.i2{ border-color:#34ab83;}
+.matchtips span i.i3{ border-color:#ffc700;}
+.matchtips span i.i4{ border-color:#800093;}
+.matchtips span i.i5{ border-color:#c6b38e;}
+.matchtips span i.i6{ border-color:#d2620a;}
+//end
+
+.checkBorder{border: 1px dashed #dcdfe6; padding-left: 15px;border-radius: 4px;}
+
+.guidePic{width: 100%;height: auto;margin: 10px 0;}
+/*参考指南公用样式*/
+.pub_guide{
+	cursor: pointer;
+	font-size: 16px;
+	color: #909399;
+	margin-bottom: 20px;
+}
+.pub_guide i{
+	font-size: 12px;
+	vertical-align: 1px;
+}
+.pub_guide i:hover{
+	text-decoration: underline;
+}
+.orderBoxJamb{//配置 可删指令参数边框
+  border: 1px dashed #dcdfe6;
+  padding: 20px 20px 0px 0px;
+  margin-bottom: 35px;
+  position: relative;
+  border-radius: 5px
+}
+// 提示语
+.tips{font-size:12px;color:#606266;margin-bottom: 20px;line-height:20px;}//margin-left: 15px;
+// 文字溢出
+.txtOverflow{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+//面包屑导航
+.breadcrumb{
+  font-weight:800;
+  background-color:#f7f7f7;
+  line-height: 30px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+// 表格横向滚动
+.scroll-table{
+  overflow-x:auto;
+}
+
+//图表背景颜色
+.chart-content{
+  background-color:#f7f7f7;
+  position relative;
+  // box-shadow: 2px 2px 5px #ccc;
+}
+
+//表格背景颜色
+.table-bg{
+  background: #fff;
+}
+
+//图表展示 右侧操作列表
+.operationBtnUl {
+  position: fixed;
+  right: 15px;
+  bottom: 50px;
+}
+.operationBtnUl li {
+  background: #eee;
+  padding: 10px;
+}
+.operationBtnUl li img {
+  cursor: pointer;
+}
+
+//带边框div的压边框标题
+.titleSpan{
+  position: absolute;
+  top: -10px;
+  left: 13px;
+  background: #fff;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+//文字禁止选中
+.userSelectNo{
+  -moz-user-select:none; /*火狐*/
+  -webkit-user-select:none; /*webkit浏览器*/
+  -ms-user-select:none; /*IE10*/
+  -khtml-user-select:none; /*早期浏览器*/
+  user-select:none;
+}
+
+// 日志弹框表格需固定一个高度
+.logTableHeight{
+  height 488px
+}
